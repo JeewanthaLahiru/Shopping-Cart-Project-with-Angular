@@ -13,17 +13,22 @@
     h1{
         font-size: 2.8em;
         font-style: italic;
+        font-family: 'Akaya Telivigala', cursive;
+        font-weight: 600;
     }
 
     p{
-        font-size: 1.4em;
-        font-weight: 400;
+        font-size: 1.3em;
+        font-weight: 700;
         margin: 0;
+        font-family: 'Akaya Telivigala', cursive;
+        font-family: 'Shippori Mincho', serif;
     }
 
     button{
         margin: 10px 0;
         border-radius: 18px;
+        padding: 10px 40px;
     }
 
 }
