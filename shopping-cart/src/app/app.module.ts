@@ -10,6 +10,7 @@ import { NavigationBarComponent } from './components/headerArea/navigation-bar/n
 import { HeaderComponent } from './components/header/header.component';
 import { BannerAreaComponent } from './components/bannerArea/banner-area/banner-area.component';
 import { BannerImageComponent } from './components/bannerArea/banner-image/banner-image.component';
+import { BannerContentComponent } from './components/bannerArea/banner-content/banner-content.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BannerImageComponent } from './components/bannerArea/banner-image/banne
     NavigationBarComponent,
     HeaderComponent,
     BannerAreaComponent,
-    BannerImageComponent
+    BannerImageComponent,
+    BannerContentComponent
   ],
   imports: [
     BrowserModule,
