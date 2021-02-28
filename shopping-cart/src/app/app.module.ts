@@ -13,6 +13,7 @@ import { ProductCategoryComponent } from './components/productCategoryList/produ
 import { BannerAreaComponent } from './components/bannerArea/banner-area/banner-area.component';
 import { BannerImageComponent } from './components/bannerArea/banner-image/banner-image.component';
 import { BannerContentComponent } from './components/bannerArea/banner-content/banner-content.component';
+import { SearchAreaComponent } from './components/searchArea/search-area/search-area.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BannerContentComponent } from './components/bannerArea/banner-content/b
     ProductCategoryComponent,
     BannerAreaComponent,
     BannerImageComponent,
-    BannerContentComponent
+    BannerContentComponent,
+    SearchAreaComponent
   ],
   imports: [
     BrowserModule,
