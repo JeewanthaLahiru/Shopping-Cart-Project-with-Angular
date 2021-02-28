@@ -8,6 +8,9 @@ import { TopHeaderComponent } from './components/headerArea/top-header/top-heade
 import { BottomHeaderComponent } from './components/headerArea/bottom-header/bottom-header.component';
 import { NavigationBarComponent } from './components/headerArea/navigation-bar/navigation-bar.component';
 import { HeaderComponent } from './components/header/header.component';
+import { BannerAreaComponent } from './components/bannerArea/banner-area/banner-area.component';
+import { BannerImageComponent } from './components/bannerArea/banner-image/banner-image.component';
+import { BannerContentComponent } from './components/bannerArea/banner-content/banner-content.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { HeaderComponent } from './components/header/header.component';
     TopHeaderComponent,
     BottomHeaderComponent,
     NavigationBarComponent,
-    HeaderComponent
+    HeaderComponent,
+    BannerAreaComponent,
+    BannerImageComponent,
+    BannerContentComponent
   ],
   imports: [
     BrowserModule,
