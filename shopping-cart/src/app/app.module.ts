@@ -9,6 +9,7 @@ import { BottomHeaderComponent } from './components/headerArea/bottom-header/bot
 import { NavigationBarComponent } from './components/headerArea/navigation-bar/navigation-bar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BannerAreaComponent } from './components/bannerArea/banner-area/banner-area.component';
+import { BannerImageComponent } from './components/bannerArea/banner-image/banner-image.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BannerAreaComponent } from './components/bannerArea/banner-area/banner-
     BottomHeaderComponent,
     NavigationBarComponent,
     HeaderComponent,
-    BannerAreaComponent
+    BannerAreaComponent,
+    BannerImageComponent
   ],
   imports: [
     BrowserModule,
