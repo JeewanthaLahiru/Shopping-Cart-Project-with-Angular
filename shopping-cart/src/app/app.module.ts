@@ -8,6 +8,7 @@ import { TopHeaderComponent } from './components/headerArea/top-header/top-heade
 import { BottomHeaderComponent } from './components/headerArea/bottom-header/bottom-header.component';
 import { NavigationBarComponent } from './components/headerArea/navigation-bar/navigation-bar.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ProductCategoryListComponent } from './components/productCategoryList/product-category-list/product-category-list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderComponent } from './components/header/header.component';
     TopHeaderComponent,
     BottomHeaderComponent,
     NavigationBarComponent,
-    HeaderComponent
+    HeaderComponent,
+    ProductCategoryListComponent
   ],
   imports: [
     BrowserModule,
