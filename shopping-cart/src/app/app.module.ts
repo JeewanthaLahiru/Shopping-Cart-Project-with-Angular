@@ -9,6 +9,7 @@ import { BottomHeaderComponent } from './components/headerArea/bottom-header/bot
 import { NavigationBarComponent } from './components/headerArea/navigation-bar/navigation-bar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ProductCategoryListComponent } from './components/productCategoryList/product-category-list/product-category-list.component';
+import { ProductCategoryComponent } from './components/productCategoryList/product-category/product-category.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProductCategoryListComponent } from './components/productCategoryList/p
     BottomHeaderComponent,
     NavigationBarComponent,
     HeaderComponent,
-    ProductCategoryListComponent
+    ProductCategoryListComponent,
+    ProductCategoryComponent
   ],
   imports: [
     BrowserModule,
