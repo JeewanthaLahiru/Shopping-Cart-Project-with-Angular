@@ -1,0 +1,29 @@
+.bottom-header{
+    border: 3px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.068);
+    box-shadow: 0 4px 8px -2px rgb(204, 204, 204);
+
+    .brand-name{
+        font-size: 2.3em;
+        font-weight: 600;
+    }
+
+    #navbarSupportedContent{
+        .notification-btn{
+            position: relative;
+
+            i{
+                font-size: 2.3em;
+            }
+
+            .notification-count{
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 5px 10px;
+                width: 23px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
