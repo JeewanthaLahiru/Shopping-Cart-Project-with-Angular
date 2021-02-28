@@ -8,6 +8,8 @@ import { TopHeaderComponent } from './components/headerArea/top-header/top-heade
 import { BottomHeaderComponent } from './components/headerArea/bottom-header/bottom-header.component';
 import { NavigationBarComponent } from './components/headerArea/navigation-bar/navigation-bar.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ProductCategoryListComponent } from './components/productCategoryList/product-category-list/product-category-list.component';
+import { ProductCategoryComponent } from './components/productCategoryList/product-category/product-category.component';
 import { BannerAreaComponent } from './components/bannerArea/banner-area/banner-area.component';
 import { BannerImageComponent } from './components/bannerArea/banner-image/banner-image.component';
 import { BannerContentComponent } from './components/bannerArea/banner-content/banner-content.component';
@@ -20,6 +22,8 @@ import { BannerContentComponent } from './components/bannerArea/banner-content/b
     BottomHeaderComponent,
     NavigationBarComponent,
     HeaderComponent,
+    ProductCategoryListComponent,
+    ProductCategoryComponent,
     BannerAreaComponent,
     BannerImageComponent,
     BannerContentComponent
